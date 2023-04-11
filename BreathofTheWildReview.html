@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" href="ReviewSite.css">
+<div class ="menu">
+<div class="notmove">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="MediaValuation.html">Home</a>
+  <a href="MovieReviewpage.html">Movie Reviews</a>
+  <a href="GameReviewpage.html">Game Reviews</a>
+  <a href="MusicReviewpage.html">Music Reviews</a>
+</div>
+<ul>
+<li>
+<div id="main">
+  
+ 
+  <span style=" font-size:35px;cursor:pointer;"onclick="openNav()">&#9776; Menu</span> 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</li> 
+<li>
+<div class="dropdown">
+
+  <button onclick="myFunction()" class="dropbtn"><input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></button>
+  <div id="myDropdown" class="dropdown-content"> <div> 
+      <ul>
+ 
+<li> <a href="12AngryMenReview.html"> 12 Angry Men </a></li>
+  <li>  <a href="AbbeyRoadReview.html">Abbey Road</a></li>
+   <li> <a href="AEOMReview.html">All Eyez On Me</a></li>
+   <li>  <a href="AlanWakeReview.html">Alan Wake</a></li>
+   <li>  <a href="Avatar2Review.html">Avatar 2: The Way of the Water</a></li>
+   <li>  <a href="BackInBlackReview.html">Back In Black</a></li>
+  <li>   <a href="ArkhamCityReview.html">Batman: Arkham City</a></li>
+<li>  <a href="Bayonetta2Review.html">Bayonetta 2</a></li>
+<li>  <a href="Bayonetta3Review.html">Bayonetta 3</a></li>
+<li> <a href="DeathStrandingReview.html">Death Stranding</a></li>
+<li> <a href="DevilMayCry3Review.html">Devil May Cry 3</a></li>
+<li> <a href="DevilMayCry5Review.html">Devil May Cry 5</a></li>
+<li> <a href="DoggysReview.html">Doggystyle</a></li>
+<li> <a href="DookieReview.html">Dookie</a></li>
+<li> <a href="HappyGilmoreReview.html">Happy Gilmore</a></li>
+<li> <a href="HunkyDoryReview.html">Hunky Dory</a></li>
+<li> <a href="IllmaticReview.html">Illmatic</a></li>
+<li> <a href="InsideReview.html">Inside</a></li>
+<li> <a href="InAeroplaneOverSeaReview.html">In the Aeroplane Over the Sea</a></li>
+<li> <a href="InUteroReview.html">In Utero</a></li>
+<li> <a href="JawsReview.html">Jaws</a></li>
+<li> <a href="LikeReview.html">Like?</a></li>
+<li> <a href="MadMaxFR.html">Mad Max: Fury Road</a></li>
+<li> <a href="MadvillainyReview.html">Madvillainy</a></li>
+<li> <a href="MansionMusikReview.html">Mansion Musik</a></li>
+<li> <a href="MetalGearSolidReview.html">Metal Gear Solid</a></li>
+<li> <a href="MetalGearSolid3Review.html">Metal Gear Solid 3: Snake Eater</a></li>
+<li> <a href="OkComputerReview.html">Ok Computer</a></li>
+<li> <a href="PsychoReview.html">Psycho</a></li>
+<li> <a href="PulpFictionReview.html">Pulp Fiction</a></li>
+<li> <a href="ReadDead2Review.html">Red Dead Redemption 2</a></li>
+<li> <a href="ReadytoDieReview.html">Ready To Die</a></li>
+<li> <a href="ReservoirDogsReview.html">Reservoir Dogs</a></li>
+<li> <a href="ResidentEvi2RemakeReview.html">Resident Evil 2 Remake</a></li>
+<li> <a href="ResidentEvil4Review.html">Resident Evil 4</a></li>
+<li> <a href="RumoursReview.html">Rumours</a></li>
+<li> <a href="ScarfaceReview.html">Scarface</a></li>
+<li> <a href="SevenReview.html">Seven</a></li>
+<li> <a href="ShadowoftheColossusReview.html">Shadow of the Colossus</a></li>
+<li> <a href="ShrekReview.html">Shrek</a></li>
+<li> <a href="SilentHillReview.html">Silent Hill</a></li>
+<li> <a href="SuperMario64Review.html">Super Mario 64</a></li>
+<li> <a href="TaxiDriverReview.html">Taxi Driver</a></li>
+<li> <a href="TheChronicReview.html">The Chronic</a></li>
+<li> <a href="TheDarkKinghtReview.html">The Dark Knight</a></li>
+<li> <a href="TheGodfatherReview.html">The Godfather</a></li>
+<li> <a href="BreathofTheWildReview.html">The Legend of Zelda: Breath of the Wild</a></li>
+<li> <a href="TheMatrixReview.html">The Matrix</a></li>
+<li> <a href="TheShiningReview.html">The Shining</a></li>
+<li> <a href="WalkingDeadS1Review.html">The Walking Dead Season 1</a></li>
+<li> <a href="ThrillerReview.html">Thriller</a></li>
+<li> <a href="TonyHawkRemakeReview.html"> Tony Hawk's Pro Skater 1 + 2 </a></li>
+<li> <a href="TopGunMavReview.html">Top Gun: Maverick </a></li>
+<li> <a href="Uncharted4Review.html">Uncharted 4: A Thief's End </a></li>
+</ul>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+  </div>
+</div></li>
+
+
+
+<li> <div class ="mainh"> <a href="MediaValuation.html">Mediavaluation</a> </div> </li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href="MovieReviewpage.html"> Movie Reviews </a> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMovie.html">Top Rated</a>
+      <a href="AlphaMovie.html">Alphabetical Order</a>
+      <a href="MinProgress.html">Reviews in Progress</a>
+    </div>
+  </div> </li>
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="GameReviewpage.html">Game Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopGame.html">Top Rated</a>
+      <a href="AlphaGame.html">Alphabetical Order</a>
+      <a href="GinProgress.html">Reviews in Progress</a>
+    </div>
+  </div></li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="MusicReviewpage.html">Music Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMusic.html">Top Rated</a>
+      <a href="AlphaMusic.html">Alphabetical Order</a>
+      <a href="MunProgress.html">Reviews in Progress</a></li>
+  
+
+
+
+</form>
+</div></div></div>
+</ul>
+
+
+<br>
+<div class ="subrec2"> The Legend of Zelda: Breath of The Wild  Review- Freedom in a World </div>
+<div class ="mainback">
+<div class ="subh">
+<br>
+<img src="GameImages/TheLegendofZeldaBOTW.jpg"><br><br>
+</div>
+<div class="revtxt">
+The Legend of Zelda: Breath of The Wild is a masterpiece of a video game giving players unlimited amounts of freedom in an open world with variety, that is like no other. Other than a few weak elements, Breath of The Wild proves why open world games are so good.
+<br><br>
+The story begins with Link awakening after a 100 years. After an open ended tutorial, Link meets a man who explains he is the ghost of the King who died 100 years ago. After this tutorial players receive a glider and you are released into the open world, of Hyrule. The game gives you five main objectives and to finish the game. You have to destroy four Divine beasts and then go and kill Gannon. The game is so open-ended it allows players to do objectives in any order they want, and you don't even have to beat any of the Divine Beasts to complete Breath of The Wild. There are many areas that players can find for themselves and be surprised with. There are shrines with puzzles that are used to gain upgrade points which are challenging as well as rewarding. The open world has diverse areas, places with many secrets, many traversal options as well as paths, and no way-point markers which adds to the wonder of the world. There are towers you can climb that give a layout of the land and although this is simple it doesn't point out every detail in the world which is a positive. Collecting items is also simple by pressing on an item with one button, but these creates more fluidity in the open world, which is a positive. Most encounters are unique and enjoyable as well. I won't go into any of the open worlds surprising factors or collectibles as that spoils the game. I also will not spoil the overall plot, as there isn't much of it, but is enough to satisfy players. The story is weak in areas and the side missions players are tasked with are simple and unnecessary. These are the only flaws I found with Breath of the Wild's open world and plot. 
+<br><br>
+Gameplay in this game consist of many features. There is a simple horse riding mechanic without much complexity. The climbing mechanics have a stamina bar and if you run out you fall of the area you are climbing and you are allowed to jump, but this takes out a chunk of stamina. This applies to swimming as well, but instead of jumping you can dash and instead of falling, you drown. The gliding mechanics are simple but use stamina, and if you run out you fall. There are also cooking mechanics that are quite complex, and depending on what food you combine it creates different and unique recipes. The sheikah slate adds complexity to traversal and combat, by giving Link multiple abilities such as throwing bombs and freezing objects in the world for a few seconds. If you are not bothered to search for specific crafting or food items, you can purchase them with rupees. You can also buy or search for clothes and this clothes adds complexity to traversal and combat, as some clothes might add armour and protection during combat, or some might prevent Link from freezing in game, etc. Most upgrade systems throughout Breath of The Wild are satisfying, complex and well worth a player's time. There are bows and arrows with different abilities which are good for combat, as well as hunting animals for food. The combat itself is well made and you have many options and abilities to play around with. There are a variety of weapons, shields, bows and arrows and each are unique, causing combat to be experimental, but also complex. Weapons are breakable and means you have to use weapons when necessary, as if they are overused they break. This applies to shields and bows. I won't spoil any other the abilities or normal moves as it more fun for players to discover themselves. The bosses themselves are all well made and fun to fight against. After you beat a boss, they each give you an extra ability to use in the world. There are many features in Breath of The Wild, and although most of these gameplay features are complex and well implemented, some are simplistic, limited and unnecessary.
+<br><br>
+The Legend of Zelda: Breath of The Wild is an open world masterpiece, but has many simplistic mechanics, dull side quests and a weak story overall. Other than these flaws, Breath of The Wild masters open world and the majority of its complex gameplay mechanics. Breath of The Wild is what an open world game should be and it proves to be one of the best games ever made.
+<br><br>
+<div class ="rvscr"> 9 </div>
+
+</div>
+</div>
+</div>
+<footer>
+  <p>&copy; 2023 Mediavaluation</p>
+</footer>
+</body>
+</html>

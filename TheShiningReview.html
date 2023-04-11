@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" href="ReviewSite.css">
+<div class ="menu">
+<div class="notmove">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="MediaValuation.html">Home</a>
+  <a href="MovieReviewpage.html">Movie Reviews</a>
+  <a href="GameReviewpage.html">Game Reviews</a>
+  <a href="MusicReviewpage.html">Music Reviews</a>
+</div>
+<ul>
+<li>
+<div id="main">
+  
+ 
+  <span style=" font-size:35px;cursor:pointer;"onclick="openNav()">&#9776; Menu</span> 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</li> 
+<li>
+<div class="dropdown">
+
+  <button onclick="myFunction()" class="dropbtn"><input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></button>
+  <div id="myDropdown" class="dropdown-content"> <div> 
+      <ul>
+ 
+<li> <a href="12AngryMenReview.html"> 12 Angry Men </a></li>
+  <li>  <a href="AbbeyRoadReview.html">Abbey Road</a></li>
+   <li> <a href="AEOMReview.html">All Eyez On Me</a></li>
+   <li>  <a href="AlanWakeReview.html">Alan Wake</a></li>
+   <li>  <a href="Avatar2Review.html">Avatar 2: The Way of the Water</a></li>
+   <li>  <a href="BackInBlackReview.html">Back In Black</a></li>
+  <li>   <a href="ArkhamCityReview.html">Batman: Arkham City</a></li>
+<li>  <a href="Bayonetta2Review.html">Bayonetta 2</a></li>
+<li>  <a href="Bayonetta3Review.html">Bayonetta 3</a></li>
+<li> <a href="DeathStrandingReview.html">Death Stranding</a></li>
+<li> <a href="DevilMayCry3Review.html">Devil May Cry 3</a></li>
+<li> <a href="DevilMayCry5Review.html">Devil May Cry 5</a></li>
+<li> <a href="DoggysReview.html">Doggystyle</a></li>
+<li> <a href="DookieReview.html">Dookie</a></li>
+<li> <a href="HappyGilmoreReview.html">Happy Gilmore</a></li>
+<li> <a href="HunkyDoryReview.html">Hunky Dory</a></li>
+<li> <a href="IllmaticReview.html">Illmatic</a></li>
+<li> <a href="InsideReview.html">Inside</a></li>
+<li> <a href="InAeroplaneOverSeaReview.html">In the Aeroplane Over the Sea</a></li>
+<li> <a href="InUteroReview.html">In Utero</a></li>
+<li> <a href="JawsReview.html">Jaws</a></li>
+<li> <a href="LikeReview.html">Like?</a></li>
+<li> <a href="MadMaxFR.html">Mad Max: Fury Road</a></li>
+<li> <a href="MadvillainyReview.html">Madvillainy</a></li>
+<li> <a href="MansionMusikReview.html">Mansion Musik</a></li>
+<li> <a href="MetalGearSolidReview.html">Metal Gear Solid</a></li>
+<li> <a href="MetalGearSolid3Review.html">Metal Gear Solid 3: Snake Eater</a></li>
+<li> <a href="OkComputerReview.html">Ok Computer</a></li>
+<li> <a href="PsychoReview.html">Psycho</a></li>
+<li> <a href="PulpFictionReview.html">Pulp Fiction</a></li>
+<li> <a href="ReadDead2Review.html">Red Dead Redemption 2</a></li>
+<li> <a href="ReadytoDieReview.html">Ready To Die</a></li>
+<li> <a href="ReservoirDogsReview.html">Reservoir Dogs</a></li>
+<li> <a href="ResidentEvi2RemakeReview.html">Resident Evil 2 Remake</a></li>
+<li> <a href="ResidentEvil4Review.html">Resident Evil 4</a></li>
+<li> <a href="RumoursReview.html">Rumours</a></li>
+<li> <a href="ScarfaceReview.html">Scarface</a></li>
+<li> <a href="SevenReview.html">Seven</a></li>
+<li> <a href="ShadowoftheColossusReview.html">Shadow of the Colossus</a></li>
+<li> <a href="ShrekReview.html">Shrek</a></li>
+<li> <a href="SilentHillReview.html">Silent Hill</a></li>
+<li> <a href="SuperMario64Review.html">Super Mario 64</a></li>
+<li> <a href="TaxiDriverReview.html">Taxi Driver</a></li>
+<li> <a href="TheChronicReview.html">The Chronic</a></li>
+<li> <a href="TheDarkKinghtReview.html">The Dark Knight</a></li>
+<li> <a href="TheGodfatherReview.html">The Godfather</a></li>
+<li> <a href="BreathofTheWildReview.html">The Legend of Zelda: Breath of the Wild</a></li>
+<li> <a href="TheMatrixReview.html">The Matrix</a></li>
+<li> <a href="TheShiningReview.html">The Shining</a></li>
+<li> <a href="WalkingDeadS1Review.html">The Walking Dead Season 1</a></li>
+<li> <a href="ThrillerReview.html">Thriller</a></li>
+<li> <a href="TonyHawkRemakeReview.html"> Tony Hawk's Pro Skater 1 + 2 </a></li>
+<li> <a href="TopGunMavReview.html">Top Gun: Maverick </a></li>
+<li> <a href="Uncharted4Review.html">Uncharted 4: A Thief's End </a></li>
+</ul>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+  </div>
+</div></li>
+
+
+
+<li> <div class ="mainh"> <a href="MediaValuation.html">Mediavaluation</a> </div> </li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href="MovieReviewpage.html"> Movie Reviews </a> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMovie.html">Top Rated</a>
+      <a href="AlphaMovie.html">Alphabetical Order</a>
+      <a href="MinProgress.html">Reviews in Progress</a>
+    </div>
+  </div> </li>
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="GameReviewpage.html">Game Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopGame.html">Top Rated</a>
+      <a href="AlphaGame.html">Alphabetical Order</a>
+      <a href="GinProgress.html">Reviews in Progress</a>
+    </div>
+  </div></li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="MusicReviewpage.html">Music Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMusic.html">Top Rated</a>
+      <a href="AlphaMusic.html">Alphabetical Order</a>
+      <a href="MunProgress.html">Reviews in Progress</a></li>
+  
+
+
+
+</form>
+</div></div></div>
+</ul>
+
+
+<br>
+<div class ="subrec2"> The Shining Review- A Masterpiece of Psychological Horror</div>
+<div class ="mainback">
+<div class ="subh">
+<br>
+<img src="MovieImages/TheShining.jpg"><br><br>
+</div>
+<div class="revtxt">
+The Shining is a masterpiece in psychological horror and one of the best films ever made. The amount of fear you feel, not from the amount of jump-scares but from the psychological elements causes the Shining to be a classic. There are so many elements of the film I can delve into, but it would take years.
+<br><br>
+The Shining is about a family who move to the Overlook Hotel so that Jack Torrence can have undo his writers block. Jack slowly turns mad, his son Danny starts to have more premonitions because of his 'shining' power and Wendy, Jack's wife is traumatised and doesn't know what to do. The representation of all 3 characters and how they evolve throughout the film is unmatched. Their characterisation is well portrayed and if it wasn't for the performances of Jack Nicholson, Shelly Duvall as well as Danny Lloyd the movie wouldn't have worked as well. The plot is basically the characterisation of these characters and how they endure these experiences. The way Kubrick tells the story through characters is perfect as they portray the horrors of what they experience.
+<br><br>
+The Shining has perfect production and all these factors add to The Shining's horror. The soundtrack is ominous and foreboding and is used to create a sense of fear among viewers. The pacing is perfect as it gives viewers time to breathe, as in one scene you may see a vivid, horrid image, in another you will see Jack conversing with people in the hotel and in the next Wendy will be traumatised over something Jack has done. Kubrick's cinematography creates a perfect sense of horror and helps viewers to feel fear the Kubrick intends the viewer to feel. The imagery in The Shining is both disturbing and horrific. This adds to the ambiguity of The Shining, which there is a lot of. There are many theories about The Shining and the events that take place, due to its ambiguity. This ambiguity also reaches it's ending, causing the film to be not just thought- provoking, but also having a perfect amount of ambiguity.
+<br><br>
+The Shining is one of the best psychological and horror movies ever made, if not the best of its genre. It is ambiguous as stated above leaving viewers haunted and thinking for hours causing an everlasting horror that no other movie can match.<br> The Shining is not just a classic, but is also a masterpiece in psychological horror.
+<br><br>
+<div class ="rvscr"> 10 </div>
+
+</div>
+</div>
+</div>
+</div>
+<footer>
+  <p>&copy; 2023 Mediavaluation</p>
+</footer>
+
+</body>
+</html>

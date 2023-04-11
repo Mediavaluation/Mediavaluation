@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" href="ReviewSite.css">
+<div class ="menu">
+<div class="notmove">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="MediaValuation.html">Home</a>
+  <a href="MovieReviewpage.html">Movie Reviews</a>
+  <a href="GameReviewpage.html">Game Reviews</a>
+  <a href="MusicReviewpage.html">Music Reviews</a>
+</div>
+<ul>
+<li>
+<div id="main">
+  
+ 
+  <span style=" font-size:35px;cursor:pointer;"onclick="openNav()">&#9776; Menu</span> 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</li> 
+<li>
+<div class="dropdown">
+
+  <button onclick="myFunction()" class="dropbtn"><input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></button>
+  <div id="myDropdown" class="dropdown-content"> <div> 
+      <ul>
+ 
+<li> <a href="12AngryMenReview.html"> 12 Angry Men </a></li>
+  <li>  <a href="AbbeyRoadReview.html">Abbey Road</a></li>
+   <li> <a href="AEOMReview.html">All Eyez On Me</a></li>
+   <li>  <a href="AlanWakeReview.html">Alan Wake</a></li>
+   <li>  <a href="Avatar2Review.html">Avatar 2: The Way of the Water</a></li>
+   <li>  <a href="BackInBlackReview.html">Back In Black</a></li>
+  <li>   <a href="ArkhamCityReview.html">Batman: Arkham City</a></li>
+<li>  <a href="Bayonetta2Review.html">Bayonetta 2</a></li>
+<li>  <a href="Bayonetta3Review.html">Bayonetta 3</a></li>
+<li> <a href="DeathStrandingReview.html">Death Stranding</a></li>
+<li> <a href="DevilMayCry3Review.html">Devil May Cry 3</a></li>
+<li> <a href="DevilMayCry5Review.html">Devil May Cry 5</a></li>
+<li> <a href="DoggysReview.html">Doggystyle</a></li>
+<li> <a href="DookieReview.html">Dookie</a></li>
+<li> <a href="HappyGilmoreReview.html">Happy Gilmore</a></li>
+<li> <a href="HunkyDoryReview.html">Hunky Dory</a></li>
+<li> <a href="IllmaticReview.html">Illmatic</a></li>
+<li> <a href="InsideReview.html">Inside</a></li>
+<li> <a href="InAeroplaneOverSeaReview.html">In the Aeroplane Over the Sea</a></li>
+<li> <a href="InUteroReview.html">In Utero</a></li>
+<li> <a href="JawsReview.html">Jaws</a></li>
+<li> <a href="LikeReview.html">Like?</a></li>
+<li> <a href="MadMaxFR.html">Mad Max: Fury Road</a></li>
+<li> <a href="MadvillainyReview.html">Madvillainy</a></li>
+<li> <a href="MansionMusikReview.html">Mansion Musik</a></li>
+<li> <a href="MetalGearSolidReview.html">Metal Gear Solid</a></li>
+<li> <a href="MetalGearSolid3Review.html">Metal Gear Solid 3: Snake Eater</a></li>
+<li> <a href="OkComputerReview.html">Ok Computer</a></li>
+<li> <a href="PsychoReview.html">Psycho</a></li>
+<li> <a href="PulpFictionReview.html">Pulp Fiction</a></li>
+<li> <a href="ReadDead2Review.html">Red Dead Redemption 2</a></li>
+<li> <a href="ReadytoDieReview.html">Ready To Die</a></li>
+<li> <a href="ReservoirDogsReview.html">Reservoir Dogs</a></li>
+<li> <a href="ResidentEvi2RemakeReview.html">Resident Evil 2 Remake</a></li>
+<li> <a href="ResidentEvil4Review.html">Resident Evil 4</a></li>
+<li> <a href="RumoursReview.html">Rumours</a></li>
+<li> <a href="ScarfaceReview.html">Scarface</a></li>
+<li> <a href="SevenReview.html">Seven</a></li>
+<li> <a href="ShadowoftheColossusReview.html">Shadow of the Colossus</a></li>
+<li> <a href="ShrekReview.html">Shrek</a></li>
+<li> <a href="SilentHillReview.html">Silent Hill</a></li>
+<li> <a href="SuperMario64Review.html">Super Mario 64</a></li>
+<li> <a href="TaxiDriverReview.html">Taxi Driver</a></li>
+<li> <a href="TheChronicReview.html">The Chronic</a></li>
+<li> <a href="TheDarkKinghtReview.html">The Dark Knight</a></li>
+<li> <a href="TheGodfatherReview.html">The Godfather</a></li>
+<li> <a href="BreathofTheWildReview.html">The Legend of Zelda: Breath of the Wild</a></li>
+<li> <a href="TheMatrixReview.html">The Matrix</a></li>
+<li> <a href="TheShiningReview.html">The Shining</a></li>
+<li> <a href="WalkingDeadS1Review.html">The Walking Dead Season 1</a></li>
+<li> <a href="ThrillerReview.html">Thriller</a></li>
+<li> <a href="TonyHawkRemakeReview.html"> Tony Hawk's Pro Skater 1 + 2 </a></li>
+<li> <a href="TopGunMavReview.html">Top Gun: Maverick </a></li>
+<li> <a href="Uncharted4Review.html">Uncharted 4: A Thief's End </a></li>
+</ul>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+  </div>
+</div></li>
+
+
+
+<li> <div class ="mainh"> <a href="MediaValuation.html">Mediavaluation</a> </div> </li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href="MovieReviewpage.html"> Movie Reviews </a> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMovie.html">Top Rated</a>
+      <a href="AlphaMovie.html">Alphabetical Order</a>
+      <a href="MinProgress.html">Reviews in Progress</a>
+    </div>
+  </div> </li>
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="GameReviewpage.html">Game Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopGame.html">Top Rated</a>
+      <a href="AlphaGame.html">Alphabetical Order</a>
+      <a href="GinProgress.html">Reviews in Progress</a>
+    </div>
+  </div></li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="MusicReviewpage.html">Music Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMusic.html">Top Rated</a>
+      <a href="AlphaMusic.html">Alphabetical Order</a>
+      <a href="MunProgress.html">Reviews in Progress</a></li>
+  
+
+
+
+</form>
+</div></div></div>
+</ul>
+
+
+<br>
+<div class ="subrec2"> Alan Wake Review- Greatness Hidden in Darkness </div>
+<div class ="mainback">
+<div class ="subh">
+<br>
+<img src="GameImages/AlanWake.jpg"><br><br>
+</div>
+<div class="revtxt">
+Alan Wake is one of the best psychological thriller video games ever made. Alan Wake is not a horror game, yes it has horror elements, but the story focuses on psyche and thriller story beats more than anything else. For me personally, Alan Wake is one of my favourite games but that does not mean it isn't flawed. As a somewhat underrated game, Alan Wake tells a mature story, with unique gameplay elements and it has a fantastic atmosphere. 
+<br><br>
+The plot focuses on Alan Wake, a writer who has writers block and cannot decide on a story he wants to write. He and his wife travel to a town called Bright Falls to have a holiday. After he receives keys to the house by the lake from a mysterious woman, cloaked in darkness, things take a turn of the worst. I will not go any deeper into the plot because the story of Alan Wake is well told and has so many twists and turns you won't know what is coming next. The story for this game kept me invested throughout the entire play-through and was kept me playing until the end, which had one of the most foreboding, gut-wrenching but hopeful endings I have experienced. The characters on the most part were interesting and mostly memorable. The standouts for me were of course Alan Wake becuase of his entire character arc and Barry, Alan's best friend, who acted as comic relief which was oddly comforting in the tense atmosphere. The symbolism of darkness and light, as well as references to mainstream horror really add to the plot progression and the sense of danger throughout. The episodic structure of Alan Wake adds to the tension as most episodes end on cliffhangers and it also paces the game perfectly. Alan Wake has one of the most underrated story's told in video games and anyone who loves thrillers, psychological or not, or even horror games should experience Alan Wake.
+<br><br>
+The gameplay in Alan Wake consists of third person shooting with a twist. Every enemy has a shield barrier of darkness and you have to shine your torch and remove it. Once the dark barrier is removed you are free to shoot the enemy. There are few different weapon types such as revolver, shotgun and even flares to space out enemies if there are too many. If players dodge an enemies attack perfectly time slows down for a few seconds which grants help, even though it is obvious this mechanic was obviously taken from Remedy's previous work, the Max Payne games. The gameplay is constantly tense and enjoyable due to these unique mechanics. Towards the end the gameplay loses steam due to the lack of diverse enemy types which does make it drag slightly. There is an abundance of set-pieces which are memorable for the most part and are very enjoyable to play through. The atmosphere is constantly tense and its creepy environments add to that factor. By the end you realise there are a lack of different environments making it feel like some of its level design has been repeated or uninspired. Even though the game is linear exploration is average for the most part. The is some incentive to find rarer weapons and more ammo but coffee thermos and some other lore related objects aren't too interesting. Overall, the core gameplay is pretty solid.
+<br><br>
+Alan Wake tells one of the best and most underrated video game stories of all time as well as having a well made gameplay loop. Although there are times the game loses it's steam it doesn't detract from the overall experience. Alan Wake is a flawed masterpiece hidden in darkness due to the amount of other games released in the same time period. Alan Wake shines a light on what a video game should be and what is worth playing.
+<br><br>
+<div class ="rvscr"> 8.6 </div>
+
+</div>
+</div>
+</div>
+<footer>
+  <p>&copy; 2023 Mediavaluation</p>
+</footer>
+</body>
+</html>

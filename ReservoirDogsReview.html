@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" href="ReviewSite.css">
+<div class ="menu">
+<div class="notmove">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="MediaValuation.html">Home</a>
+  <a href="MovieReviewpage.html">Movie Reviews</a>
+  <a href="GameReviewpage.html">Game Reviews</a>
+  <a href="MusicReviewpage.html">Music Reviews</a>
+</div>
+<ul>
+<li>
+<div id="main">
+  
+ 
+  <span style=" font-size:35px;cursor:pointer;"onclick="openNav()">&#9776; Menu</span> 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</li> 
+<li>
+<div class="dropdown">
+
+  <button onclick="myFunction()" class="dropbtn"><input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></button>
+  <div id="myDropdown" class="dropdown-content"> <div> 
+      <ul>
+ 
+<li> <a href="12AngryMenReview.html"> 12 Angry Men </a></li>
+  <li>  <a href="AbbeyRoadReview.html">Abbey Road</a></li>
+   <li> <a href="AEOMReview.html">All Eyez On Me</a></li>
+   <li>  <a href="AlanWakeReview.html">Alan Wake</a></li>
+   <li>  <a href="Avatar2Review.html">Avatar 2: The Way of the Water</a></li>
+   <li>  <a href="BackInBlackReview.html">Back In Black</a></li>
+  <li>   <a href="ArkhamCityReview.html">Batman: Arkham City</a></li>
+<li>  <a href="Bayonetta2Review.html">Bayonetta 2</a></li>
+<li>  <a href="Bayonetta3Review.html">Bayonetta 3</a></li>
+<li> <a href="DeathStrandingReview.html">Death Stranding</a></li>
+<li> <a href="DevilMayCry3Review.html">Devil May Cry 3</a></li>
+<li> <a href="DevilMayCry5Review.html">Devil May Cry 5</a></li>
+<li> <a href="DoggysReview.html">Doggystyle</a></li>
+<li> <a href="DookieReview.html">Dookie</a></li>
+<li> <a href="HappyGilmoreReview.html">Happy Gilmore</a></li>
+<li> <a href="HunkyDoryReview.html">Hunky Dory</a></li>
+<li> <a href="IllmaticReview.html">Illmatic</a></li>
+<li> <a href="InsideReview.html">Inside</a></li>
+<li> <a href="InAeroplaneOverSeaReview.html">In the Aeroplane Over the Sea</a></li>
+<li> <a href="InUteroReview.html">In Utero</a></li>
+<li> <a href="JawsReview.html">Jaws</a></li>
+<li> <a href="LikeReview.html">Like?</a></li>
+<li> <a href="MadMaxFR.html">Mad Max: Fury Road</a></li>
+<li> <a href="MadvillainyReview.html">Madvillainy</a></li>
+<li> <a href="MansionMusikReview.html">Mansion Musik</a></li>
+<li> <a href="MetalGearSolidReview.html">Metal Gear Solid</a></li>
+<li> <a href="MetalGearSolid3Review.html">Metal Gear Solid 3: Snake Eater</a></li>
+<li> <a href="OkComputerReview.html">Ok Computer</a></li>
+<li> <a href="PsychoReview.html">Psycho</a></li>
+<li> <a href="PulpFictionReview.html">Pulp Fiction</a></li>
+<li> <a href="ReadDead2Review.html">Red Dead Redemption 2</a></li>
+<li> <a href="ReadytoDieReview.html">Ready To Die</a></li>
+<li> <a href="ReservoirDogsReview.html">Reservoir Dogs</a></li>
+<li> <a href="ResidentEvi2RemakeReview.html">Resident Evil 2 Remake</a></li>
+<li> <a href="ResidentEvil4Review.html">Resident Evil 4</a></li>
+<li> <a href="RumoursReview.html">Rumours</a></li>
+<li> <a href="ScarfaceReview.html">Scarface</a></li>
+<li> <a href="SevenReview.html">Seven</a></li>
+<li> <a href="ShadowoftheColossusReview.html">Shadow of the Colossus</a></li>
+<li> <a href="ShrekReview.html">Shrek</a></li>
+<li> <a href="SilentHillReview.html">Silent Hill</a></li>
+<li> <a href="SuperMario64Review.html">Super Mario 64</a></li>
+<li> <a href="TaxiDriverReview.html">Taxi Driver</a></li>
+<li> <a href="TheChronicReview.html">The Chronic</a></li>
+<li> <a href="TheDarkKinghtReview.html">The Dark Knight</a></li>
+<li> <a href="TheGodfatherReview.html">The Godfather</a></li>
+<li> <a href="BreathofTheWildReview.html">The Legend of Zelda: Breath of the Wild</a></li>
+<li> <a href="TheMatrixReview.html">The Matrix</a></li>
+<li> <a href="TheShiningReview.html">The Shining</a></li>
+<li> <a href="WalkingDeadS1Review.html">The Walking Dead Season 1</a></li>
+<li> <a href="ThrillerReview.html">Thriller</a></li>
+<li> <a href="TonyHawkRemakeReview.html"> Tony Hawk's Pro Skater 1 + 2 </a></li>
+<li> <a href="TopGunMavReview.html">Top Gun: Maverick </a></li>
+<li> <a href="Uncharted4Review.html">Uncharted 4: A Thief's End </a></li>
+</ul>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+  </div>
+</div></li>
+
+
+
+<li> <div class ="mainh"> <a href="MediaValuation.html">Mediavaluation</a> </div> </li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href="MovieReviewpage.html"> Movie Reviews </a> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMovie.html">Top Rated</a>
+      <a href="AlphaMovie.html">Alphabetical Order</a>
+      <a href="MinProgress.html">Reviews in Progress</a>
+    </div>
+  </div> </li>
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="GameReviewpage.html">Game Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopGame.html">Top Rated</a>
+      <a href="AlphaGame.html">Alphabetical Order</a>
+      <a href="GinProgress.html">Reviews in Progress</a>
+    </div>
+  </div></li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="MusicReviewpage.html">Music Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMusic.html">Top Rated</a>
+      <a href="AlphaMusic.html">Alphabetical Order</a>
+      <a href="MunProgress.html">Reviews in Progress</a></li>
+  
+
+
+
+</form>
+</div></div></div>
+</ul>
+
+
+<br>
+<div class ="subrec2"> Reservoir Dogs Review- Tarantino's Masterful Debut  </div>
+<div class ="mainback">
+<div class ="subh">
+<br>
+<img src="MovieImages/ReservoirDogs.jpeg"><br><br>
+</div>
+<div class="revtxt">
+Reservoir Dogs is Tarantino's debut film. It is classic and near masterpiece. It takes the conventions of crime films and flips it on it's head, causing a slightly satirical but completely enjoyable crime film.
+<br><br>
+A team of hired criminal go to rob a bank and everything goes wrong, as the police show up before any of them thought possible. We see some of the scenes in flashbacks, but the film picks off where a few of the men meet each other at the warehouse, their base of operation and rendezvous point. The rest of the movie focuses on the remaining characters who all have interesting backstories, motivations and desires for the job. The film subverts expectations by changing the format of traditional crime thrillers. Instead of being during a heist, events take place after, and major plot points are revealed later in the film. The cinematography is well done and is immersive and always changes depending on the way Tarantino wants the audience to feel. The overall film is well paced as well causing characters, plot and cinematography to perfectly combine.
+<br><br>
+The film's characters are well characterised and Tarantino emphasises their personalities and backstories. There is character who has really violent and psychotic tendencies and this is shown in only a few scenes. This is just one example of how characters are well crafted. Characters will also live or die depending on how they handle the situation, if they evolve and overcome their flaws they will live and if not they die or are severely injured. I don't want to spoil anything but not many characters survive.There is also a plot twist at the end that is vital to the plot, which again subverts expectations, but also falls into a common trope of a common heist film.
+<br><br>
+Reservoir Dogs is one of the best handled and well directed heist/crime films. It does fall into some of the common tropes that films like these have, but the way everything else is handled is perfectly done. This debut really showcased Tarantino's directing style and unique ideas, which created a fantastic movie, but these ideas weren't executed as well as his future films.
+<br><br>
+<div class ="rvscr"> 9 </div>
+
+</div>
+</div>
+</div>
+</div>
+<footer>
+  <p>&copy; 2023 Mediavaluation</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" href="ReviewSite.css">
+<div class ="menu">
+<div class="notmove">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="MediaValuation.html">Home</a>
+  <a href="MovieReviewpage.html">Movie Reviews</a>
+  <a href="GameReviewpage.html">Game Reviews</a>
+  <a href="MusicReviewpage.html">Music Reviews</a>
+</div>
+<ul>
+<li>
+<div id="main">
+  
+ 
+  <span style=" font-size:35px;cursor:pointer;"onclick="openNav()">&#9776; Menu</span> 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</li> 
+<li>
+<div class="dropdown">
+
+  <button onclick="myFunction()" class="dropbtn"><input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></button>
+  <div id="myDropdown" class="dropdown-content"> <div> 
+      <ul>
+ 
+<li> <a href="12AngryMenReview.html"> 12 Angry Men </a></li>
+  <li>  <a href="AbbeyRoadReview.html">Abbey Road</a></li>
+   <li> <a href="AEOMReview.html">All Eyez On Me</a></li>
+   <li>  <a href="AlanWakeReview.html">Alan Wake</a></li>
+   <li>  <a href="Avatar2Review.html">Avatar 2: The Way of the Water</a></li>
+   <li>  <a href="BackInBlackReview.html">Back In Black</a></li>
+  <li>   <a href="ArkhamCityReview.html">Batman: Arkham City</a></li>
+<li>  <a href="Bayonetta2Review.html">Bayonetta 2</a></li>
+<li>  <a href="Bayonetta3Review.html">Bayonetta 3</a></li>
+<li> <a href="DeathStrandingReview.html">Death Stranding</a></li>
+<li> <a href="DevilMayCry3Review.html">Devil May Cry 3</a></li>
+<li> <a href="DevilMayCry5Review.html">Devil May Cry 5</a></li>
+<li> <a href="DoggysReview.html">Doggystyle</a></li>
+<li> <a href="DookieReview.html">Dookie</a></li>
+<li> <a href="HappyGilmoreReview.html">Happy Gilmore</a></li>
+<li> <a href="HunkyDoryReview.html">Hunky Dory</a></li>
+<li> <a href="IllmaticReview.html">Illmatic</a></li>
+<li> <a href="InsideReview.html">Inside</a></li>
+<li> <a href="InAeroplaneOverSeaReview.html">In the Aeroplane Over the Sea</a></li>
+<li> <a href="InUteroReview.html">In Utero</a></li>
+<li> <a href="JawsReview.html">Jaws</a></li>
+<li> <a href="LikeReview.html">Like?</a></li>
+<li> <a href="MadMaxFR.html">Mad Max: Fury Road</a></li>
+<li> <a href="MadvillainyReview.html">Madvillainy</a></li>
+<li> <a href="MansionMusikReview.html">Mansion Musik</a></li>
+<li> <a href="MetalGearSolidReview.html">Metal Gear Solid</a></li>
+<li> <a href="MetalGearSolid3Review.html">Metal Gear Solid 3: Snake Eater</a></li>
+<li> <a href="OkComputerReview.html">Ok Computer</a></li>
+<li> <a href="PsychoReview.html">Psycho</a></li>
+<li> <a href="PulpFictionReview.html">Pulp Fiction</a></li>
+<li> <a href="ReadDead2Review.html">Red Dead Redemption 2</a></li>
+<li> <a href="ReadytoDieReview.html">Ready To Die</a></li>
+<li> <a href="ReservoirDogsReview.html">Reservoir Dogs</a></li>
+<li> <a href="ResidentEvi2RemakeReview.html">Resident Evil 2 Remake</a></li>
+<li> <a href="ResidentEvil4Review.html">Resident Evil 4</a></li>
+<li> <a href="RumoursReview.html">Rumours</a></li>
+<li> <a href="ScarfaceReview.html">Scarface</a></li>
+<li> <a href="SevenReview.html">Seven</a></li>
+<li> <a href="ShadowoftheColossusReview.html">Shadow of the Colossus</a></li>
+<li> <a href="ShrekReview.html">Shrek</a></li>
+<li> <a href="SilentHillReview.html">Silent Hill</a></li>
+<li> <a href="SuperMario64Review.html">Super Mario 64</a></li>
+<li> <a href="TaxiDriverReview.html">Taxi Driver</a></li>
+<li> <a href="TheChronicReview.html">The Chronic</a></li>
+<li> <a href="TheDarkKinghtReview.html">The Dark Knight</a></li>
+<li> <a href="TheGodfatherReview.html">The Godfather</a></li>
+<li> <a href="BreathofTheWildReview.html">The Legend of Zelda: Breath of the Wild</a></li>
+<li> <a href="TheMatrixReview.html">The Matrix</a></li>
+<li> <a href="TheShiningReview.html">The Shining</a></li>
+<li> <a href="WalkingDeadS1Review.html">The Walking Dead Season 1</a></li>
+<li> <a href="ThrillerReview.html">Thriller</a></li>
+<li> <a href="TonyHawkRemakeReview.html"> Tony Hawk's Pro Skater 1 + 2 </a></li>
+<li> <a href="TopGunMavReview.html">Top Gun: Maverick </a></li>
+<li> <a href="Uncharted4Review.html">Uncharted 4: A Thief's End </a></li>
+</ul>
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+  </div>
+</div></li>
+
+
+
+<li> <div class ="mainh"> <a href="MediaValuation.html">Mediavaluation</a> </div> </li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href="MovieReviewpage.html"> Movie Reviews </a> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMovie.html">Top Rated</a>
+      <a href="AlphaMovie.html">Alphabetical Order</a>
+      <a href="MinProgress.html">Reviews in Progress</a>
+    </div>
+  </div> </li>
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="GameReviewpage.html">Game Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopGame.html">Top Rated</a>
+      <a href="AlphaGame.html">Alphabetical Order</a>
+      <a href="GinProgress.html">Reviews in Progress</a>
+    </div>
+  </div></li>
+
+<li> <div class="dropdown">
+    <button class="dropbtn"><a href ="MusicReviewpage.html">Music Reviews</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="TopMusic.html">Top Rated</a>
+      <a href="AlphaMusic.html">Alphabetical Order</a>
+      <a href="MunProgress.html">Reviews in Progress</a></li>
+  
+
+
+
+</form>
+</div></div></div>
+</ul>
+
+
+<br>
+<div class ="subrec2">Back In Black Review- A Classic Rock Banger </div>
+<div class ="mainback">
+<div class ="subh">
+<br>
+<img src="MusicImages/BackinBlack.png"><br><br>
+</div>
+<div class="revtxt">
+After the tragic death of Bon Scott, AC/DC searched for a new frontman and they found Brian Johnson. He turned out to be perfect for the role and his voice fit the hard rock, metal music the band plays. The debut of Brian Johnson is as the AC/DC frontman was fantastic and he was part of a hard rock classic.
+<br><br>
+The metal and hard rock production of the album perfectly fits the tone of respecting and grieving Bon Scott, while introducing new blood to the AC/DC crew. The production does get repetitive with 3 songs and these tracks, are not memorable and sound very similar to each other. Other than 3 poorly produced tracks, the rest of the album has fantastic production. The album is paced well enough, and even when some production becomes irritating, it ends quickly because of the pacing. The best tracks such as Hells Bells, Back in Black, Shoot to Thrill and a few other have guitars, basses and drums that create a sound that is iconic, as well as varied. These sounds create some of the best metal and hard rock songs ever made and the grieving tone is really emphasised through these production elements. The production elements also emphasise enjoyment in life, and celebrate the introduction of Brian Johnson. The overall sound only gets annoying when it is similar in some songs and this makes some of the album feel repetitive and boring at points.
+<br><br>
+Back In Black's lyrical themes are well conveyed from Brian Johnson. The lyrics add to the darker production of the album and they compliment each other the majority of the time. There are some mediocre lyrics scattered throughout the album, but they are pretty rare. The lyrics range from parties, death, rock itself and a few other topics. The variation is pretty good and the topics, add to the darker themes as well. Brian Johnson's delivery is great for the most part and his role in the group differs from the part of Bon Scott. This helps Brian to have his own identity and create new themes for the band. His delivery also differs from Bon, causing a new tone for the band's hard rock roots. This album is more metal than hard rock and it compliments Brain's voice perfectly. There is some delivery and versatility that is not delved into and it makes a few songs unmemorable. Overall, the lyrical elements of Back in Black are good for the most part.
+<br><br>
+Back in Black is a solid album that has many elements that make it a great LP. There are many iconic songs and a couple other songs are also well made as well. A few songs are unmemorable, uninspired and are just boring rock tracks. There are some lyrical elements that are boring and again uninspired. Overall, Back in Black is a classic album with a few flawed elements. 
+<br><br>
+<div class ="rvscr"> 8.5 </div>
+
+</div>
+</div>
+</div>
+<footer>
+  <p>&copy; 2023 Mediavaluation</p>
+</footer>
+</body>
+</html>
